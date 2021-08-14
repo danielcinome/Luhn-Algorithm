@@ -81,7 +81,7 @@ Por favor considere usar entornos virtuales de python o ejecute el contenedor de
 
 ### EndPoints y documentación
 
-Una vez ejecute el proyecto puede ver que todos los EndPoint estan documentados en [https://0.0.0.0:5000/docs](https://0.0.0.0:5000/docs)
+Una vez ejecute el proyecto puede ver que todos los EndPoint estan documentados en [http://localhost:5000/docs](http://localhost:5000/docs)
 
 ![enter image description here](https://i.ibb.co/gttpdyc/docs.png)
 
