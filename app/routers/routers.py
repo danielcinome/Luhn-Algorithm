@@ -7,7 +7,7 @@ router = APIRouter()
 @router.post("/credit_card")
 def validate_credit_card(card_sc: CardNumber):
     """
-    Validación de la Tarjeta de CrÉdito e identificación de la entidad a la que pertenece:
+    Validación de la Tarjeta de Crédito e identificación de la entidad a la que pertenece:
 
     - **card_number**: Número de Tarjeta de Credito proporcionada por el Usuario
     """

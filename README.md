@@ -23,8 +23,10 @@ Ejemplo: dado un número de cuenta "**79927398713** ".
 2. Si el resultado de la dupliación del digito da como resultado un numero de 2 digitos, estos deben ser sumando y este sera el resultado tomado. Ejemplo: (9 x 2= 18 -> 1 + 8 = 9)
 3. Como tercer paso se deben sumar todos los digitos
 4. Por ultimo si el modulo 10 del valor del resultado es 0, entonces el número es válido según la fórmula de Luhn; de lo contrario, no es válido.
-   ![enter image description here](https://media.geeksforgeeks.org/wp-content/uploads/gfg2-2-300x101.png)
-   En el ejemplo, la suma total de los digitos es 70, que es multiplo de 10, dando como resultado un número de cuenta válido
+
+![enter image description here](https://media.geeksforgeeks.org/wp-content/uploads/gfg2-2-300x101.png)
+
+En el ejemplo, la suma total de los digitos es 70, que es multiplo de 10, dando como resultado un número de cuenta válido
 
 ## Descripción
 
@@ -83,7 +85,7 @@ Una vez ejecute el proyecto puede ver que todos los EndPoint estan documentados 
 
 ### Test
 
-La API tambien proporciona Tests para validar el funcionamiento bajo diferentes casos y que funcione de manera correcta. Puede ver los test en el archivo [test_main ](https://github.com/danielcinome/Luhn-Algorithm/app/tests/test_main.py).
+La API tambien proporciona Tests para validar el funcionamiento bajo diferentes casos y que funcione de manera correcta. Puede ver los test en el archivo [test_main ](https://github.com/danielcinome/Luhn-Algorithm/blob/main/app/tests/test_main.py).
 
 ![enter image description here](https://i.ibb.co/pbxkrr0/Test.png)
 
