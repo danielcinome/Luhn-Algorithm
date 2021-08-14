@@ -55,31 +55,33 @@ Por favor considere usar entornos virtuales de python o ejecute el contenedor de
 
     - **Docker**
 
-           ***Crear contenedor***
+      **_Crear contenedor_**
 
       `docker-compose build`
 
-          ***Ejecutar el proyecto***
+      **_Ejecutar el proyecto_**
 
       `docker-compose up`
 
     - **Entorno virtual de Python**
 
-            ***Crear entorno virtual***
+      **_Crear entorno virtual_**
 
       `virtualenv -p /usr/bin/python3 venv`
 
       **_Activar el entorno virtual e instalar las dependencias_**
+
       `source venv/bin/activate`
+
       `python -m pip install -r requirements.txt`
 
-          **Ejecutar el proyecto**
+      **Ejecutar el proyecto**
 
       `make run`
 
 ### EndPoints y documentación
 
-Una vez ejecute el proyecto puede ver que todos los EndPoint estan documentados en [https://0.0.0.0:5001/docs](https://0.0.0.0:5001/docs)
+Una vez ejecute el proyecto puede ver que todos los EndPoint estan documentados en [https://0.0.0.0:5000/docs](https://0.0.0.0:5000/docs)
 
 ![enter image description here](https://i.ibb.co/gttpdyc/docs.png)
 
