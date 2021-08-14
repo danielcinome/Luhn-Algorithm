@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  backend:
+    container_name: management-api
+    build: ./
+    ports:
+      - "5000:81"
